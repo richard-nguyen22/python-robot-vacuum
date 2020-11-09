@@ -1,7 +1,7 @@
 # Prerequisites
 Python 2.7 with package:
-- matplotlib, to install use this command: `py pip -m install matplotlib`
-- [Python 2.7 download link](https://www.python.org/downloads/release/python-2718/)
+* matplotlib, to install use this command: `py pip -m install matplotlib`
+* [Python 2.7 download link](https://www.python.org/downloads/release/python-2718/)
 
 # Simulation of robot vacuum
 iRobot is a company that sells [vacuuming robots](https://www.irobot.com/). The vacuuming robot moves around the floor, cleaning the area it passes over.
@@ -14,19 +14,19 @@ In simulation of robot vacuum project, a simulation model is build to compare ho
 **Tiles**: The room with size (w * h) will have (w * h) tiles need to be cleaned. Each tile is identify by it coordination: (0, 0), (0, 1), ..., (w-1, h-1).
 
 **Robot motion rules**:
-- The robot is placed randomly inside the room.
-- The robot has a direction of motion.
-- All robots move at the same speed constantly throughout the simulation.
-- If the robot detects that it will hit the wall, it will change a new direction randomly.
+* The robot is placed randomly inside the room.
+* The robot has a direction of motion.
+* All robots move at the same speed constantly throughout the simulation.
+* If the robot detects that it will hit the wall, it will change a new direction randomly.
 
-**Terminate the simulation**: The simulation ends when a specified fraction of the tiles in the room have been cleaned.
+**Terminate the simulation**: The simulation ends when a robot cleans all tiles in a room.
 
 ## Two type of robot vacuum
 **Standard Robot** vacuum:
 - A standard robot vacuum moves and cleans the floor in a straight line.
 - If it hits the wall, it will change direction randomly
 
-**Standard Robot** vacuum:
+**Random-walk Robot** vacuum:
 - A random-walk robot vacuum changes direction after each moving step. So the random-walk robot is kind of a *drunk* robot with random movement.
 
 ## Programming concepts
