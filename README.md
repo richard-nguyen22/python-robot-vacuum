@@ -1,9 +1,14 @@
+# Content
+[Prerequisites](#Prerequisites)
+[Simulation introduction](#simulation-introduction)
+[How to run robot vacuum simulation](#how-to-run-robot-vacuum-simulation)
+
 # Prerequisites
 Python 2.7 with package:
 * matplotlib, to install use this command: `py pip -m install matplotlib`
 * [Python 2.7 download link](https://www.python.org/downloads/release/python-2718/)
 
-# Simulation of robot vacuum
+# Simulation introduction
 iRobot is a company that sells [vacuuming robots](https://www.irobot.com/). The vacuuming robot moves around the floor, cleaning the area it passes over.
 
 In simulation of robot vacuum project, a simulation model is build and visualize to see robot vacuum in action.
@@ -36,7 +41,7 @@ Sample graph with explanation:
 ## Programming concepts
 This robot vacuum simulation program uses Python 2.7 and object-oriented concepts to build all necessary classes such as: Robot, Room, Tile and Position.
 
-# How to run Simulation of robot vacuum
+# How to run robot vacuum simulation
 **File structures**:
 ```
 ├── images -- contain images in README.md
