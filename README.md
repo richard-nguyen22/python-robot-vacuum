@@ -1,7 +1,7 @@
 # Content
-[Prerequisites](#Prerequisites)
-[Simulation introduction](#simulation-introduction)
-[How to run robot vacuum simulation](#how-to-run-robot-vacuum-simulation)
+1. [Prerequisites](#Prerequisites)
+2. [Simulation introduction](#simulation-introduction)
+3. [How to run robot vacuum simulation](#how-to-run-robot-vacuum-simulation)
 
 # Prerequisites
 Python 2.7 with package:
