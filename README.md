@@ -64,3 +64,4 @@ If a file with extension `.pyc` appears, you can leave it there or delete it. `.
 - You can change the simulation options:
   ![Simulation Options](./images/simulation-options.png)
 - Run `main.py` and see robot vacuums in action!
+  ![Animation](./images/animation.png)
