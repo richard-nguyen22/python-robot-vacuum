@@ -47,9 +47,9 @@ This robot vacuum simulation program uses Python 2.7 and object-oriented concept
 ├── images -- contain images in README.md
 classes.py -- Classes are implemented here
 main.py -- Python file to run the simulation
-test_movement27.pyc -- Run to see each robot movement
+test_movement.py -- Run to see each robot movement
 visualize.py -- Code to animate the simulation
-README.md -- Documentation of robot vacuum simulation project
+README.md -- Information about robot vacuum simulation project
 ```
 
 If a file with extension `.pyc` appears, you can leave it there or delete it. `.pyc` files is used to make the animation run smoothly.
